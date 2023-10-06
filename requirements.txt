@@ -1,0 +1,2 @@
+django
+whitenoise==5.1.0
