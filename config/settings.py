@@ -122,8 +122,9 @@ USE_TZ = True
 
 # Static files
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [str(BASE_DIR.joinpath('static/'))]
-STATIC_ROOT = str(BASE_DIR.joinpath('staticfiles/'))
+# STATICFILES_DIRS = [str(BASE_DIR.joinpath('static/'))]
+# STATIC_ROOT = str(BASE_DIR.joinpath('staticfiles/'))
+STATIC_ROOT = BASE_DIR / 'static'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
@@ -134,6 +135,7 @@ LOGOUT_REDIRECT_URL ='home'
 
 
 # Media handling
-MEDIA_ROOT = str(BASE_DIR.joinpath(''))
+# MEDIA_ROOT = str(BASE_DIR.joinpath(''))
+# MEDIA_URL = '/img/'
+MEDIA_ROOT = str(BASE_DIR.joinpath('static/img'))
 MEDIA_URL = '/img/'
-
