@@ -6,8 +6,8 @@
 - make a new branch, and shift to it
   [ git checkout -b <branch new> ]
 - install the content in requirements.txt
-  [ pipenv shell
-  pipenv install -r requirements.txt ]
+  [ pipenv shell ]
+  [ pipenv install -r requirements.txt ]
 - make changes and test them
 - commit, push to github
 
