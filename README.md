@@ -9,7 +9,7 @@
   
         git checkout -b <branch new> 
   
-- install the content in requirements.txt
+- install the content from requirements.txt
  
         pipenv shell 
   
