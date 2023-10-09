@@ -24,9 +24,9 @@
   
         git commit -m <descriptive message> 
 
-## Note:
-Omit <...> and [...] while writing git commands, they are provided for visual understanding.
-  
-  git push 
+        git push 
   
 - Kindly create a pull request
+
+## Note:
+Omit <...> and [...] while writing git commands, they are provided for visual understanding.
